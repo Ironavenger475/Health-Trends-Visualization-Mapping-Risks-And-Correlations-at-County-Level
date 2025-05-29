@@ -1,5 +1,4 @@
 # Visual Interface Project 1
-
 # Health Trends Visualization: Mapping Risks & Correlations at County Level
 
 ## About:
@@ -19,36 +18,37 @@ Initially, I had planned an outline where the dashboard was present in a page an
 
 ## Visualization Components:
 
-           i.             Bar chart:
-The bar chart was made to show the gradual increase of the selected attribute and to see the general variance between counties
-The data is presented in an ascending order of the attribute to show the gradual increase over the counties and shows it in two graphs for each attribute 
-The bar chart when interacted with shows a tooltip with the county name and value of the attribute for the county below the cursor
+i. Bar chart:
+* The bar chart was made to show the gradual increase of the selected attribute and to see the general variance between counties
+* The data is presented in an ascending order of the attribute to show the gradual increase over the counties and shows it in two graphs for each attribute 
+* The bar chart when interacted with shows a tooltip with the county name and value of the attribute for the county below the cursor
  
-        ii.              Scatterplot:
-The scatterplot shows the data in a way that the user can see the data of all the counties at the same time and with ease
-The data is arranged in a way where the x-axis is based on the socioeconomic or risk factors and y-axis is the health diseases such as stroke, diabetes etc.
-The user can interact with the data by hovering over a certain point and a tooltip will appear showing the county name and the values of the two selected attributes.
-The regression line for the scatterplot is also shown in a separate chart, which will show the progression of the plot, which shows the data progression.
+ii. Scatterplot:
+* The scatterplot shows the data in a way that the user can see the data of all the counties at the same time and with ease
+* The data is arranged in a way where the x-axis is based on the socioeconomic or risk factors and y-axis is the health diseases such as stroke, diabetes etc.
+* The user can interact with the data by hovering over a certain point and a tooltip will appear showing the county name and the values of the two selected attributes.
+* The regression line for the scatterplot is also shown in a separate chart, which will show the progression of the plot, which shows the data progression.
  
-     iii.              Histogram:
-The histogram shows the frequency of the attribute
-The user can get to know the average of the selected attribute from the county by seeing the highest range.
-Like with the other components, hovering over each bar will show a tooltip showing the range and the number of counties that fall within that range.
-     iv.               Correlation Gauge:
-The correlation gauge shows the correlation between the two selected attributes and if they are related to each other.
-The value ranges from –1 to 1. The closer to 1 the correlation is, the more related the two attributes are and conversely, the closer to -1 the correlation is, the more unrelated the two attributes are.
-The gauge is presented in a manner like a speedometer with -1 being on the left side of the arc and 1 being on the right.
-A needle in the middle shows the correlation value and it is also displayed in number format below it as well.
-         v.             Choropleth Maps:
-The choropleth maps are used to show the value of the selected attribute for each county on the map format.
-It can help the user understand the distribution in a much easier manner.
-The colour scale varies for each attribute.
-The legend is present below the map to show the spread of the values.
+iii. Histogram:
+* The histogram shows the frequency of the attribute
+* The user can get to know the average of the selected attribute from the county by seeing the highest range.
+* Like with the other components, hovering over each bar will show a tooltip showing the range and the number of counties that fall within that range.
 
-There are two maps present so that the user can compare two attributes easily.
+iv.  Correlation Gauge:
+* The correlation gauge shows the correlation between the two selected attributes and if they are related to each other.
+* The value ranges from –1 to 1. The closer to 1 the correlation is, the more related the two attributes are and conversely, the closer to -1 the correlation is, the more unrelated the two attributes are.
+* The gauge is presented in a manner like a speedometer with -1 being on the left side of the arc and 1 being on the right.
+* A needle in the middle shows the correlation value and it is also displayed in number format below it as well.
 
-     vi.              Info Boxes:
-There is info boxes present at the top right of each map to show the relevant info for each chart and how it works.
+v. Choropleth Maps:
+* The choropleth maps are used to show the value of the selected attribute for each county on the map format.
+* It can help the user understand the distribution in a much easier manner.
+* The colour scale varies for each attribute.
+* The legend is present below the map to show the spread of the values.
+* There are two maps present so that the user can compare two attributes easily.
+
+vi. Info Boxes:
+* There is info boxes present at the top right of each map to show the relevant info for each chart and how it works.
 
 ## Insights:
 
