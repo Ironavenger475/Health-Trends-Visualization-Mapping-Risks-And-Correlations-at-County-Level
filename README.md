@@ -68,15 +68,15 @@ Hosted Site: https://ironavenger475.github.io/VisualInterface1/
 
 Some of the challenges faced were:
 
-Other parts of the code breaking when a change was made in an unrelated part
-The d3 library not filtering the data properly at times
-There was a scrapped feature where a heatmap would have been generated to show the correlation between the attributes by using cosine similarity. It was sadly hard to implement as the dataset was huge and a small part was not enough to generate good results. There was also an issue where the matrix generated from the data would only have 0 values.
-I had an idea to show the page as zoomed out to accommodate all the charts and two maps within a fully maximised webpage without the need to scroll. But it created issues with the tooltip positioning and had to be greatly altered to make it work as per my vision.
-There were several positioning issues that had occurred that had to be rectified via several changes to the CSS and Js code.
+* Other parts of the code breaking when a change was made in an unrelated part
+* The d3 library not filtering the data properly at times
+* There was a scrapped feature where a heatmap would have been generated to show the correlation between the attributes by using cosine similarity. It was sadly hard to implement as the dataset was huge and a small part was not enough to generate good results. There was also an issue where the matrix generated from the data would only have 0 values.
+* I had an idea to show the page as zoomed out to accommodate all the charts and two maps within a fully maximised webpage without the need to scroll. But it created issues with the tooltip positioning and had to be greatly altered to make it work as per my vision.
+* There were several positioning issues that had occurred that had to be rectified via several changes to the CSS and Js code.
 
 ## Future Works:
 
-There is a plan to add more attributes to the dataset.
-The scrapped heatmap could be added once the matrix issue is fixed.
-Add a brushing feature where the selected components on the scatter map are highlighted on the choropleth map.
-Add a diverging bar graph with values such as urban or rural to see whether that also plays an effect to health risks or other factors.
+* There is a plan to add more attributes to the dataset.
+* The scrapped heatmap could be added once the matrix issue is fixed.
+* Add a brushing feature where the selected components on the scatter map are highlighted on the choropleth map.
+* Add a diverging bar graph with values such as urban or rural to see whether that also plays an effect to health risks or other factors.
