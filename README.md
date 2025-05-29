@@ -1,15 +1,12 @@
-#Visual Interface Project 1
+# Visual Interface Project 1
 
-#Health Trends Visualization: Mapping Risks & Correlations at County Level
+# Health Trends Visualization: Mapping Risks & Correlations at County Level
 
-#By Samraysh Pellakur
-
-
-##About:
+## About:
 
 This project aims to visualize and analyse the possible correlations between various health risks across different counties in the United States. Using county-level data, the project explores how factors such as poverty rates, obesity, smoking, and chronic diseases relate to one another. By looking at the data, we can identify trends and patterns that may indicate potential relationships between socioeconomic factors, risk factors and health outcomes.
 
-##Data:
+## Data:
 
 The data was obtained from the official CDC website. It was taken from the Interactive Atlas of Heart Disease and Stroke. The atlas contains various County and State level statistics of various categories, primarily from the medical related categories. Certain categories that contained relevance to my project were selected. The data obtained contained several missing and -1 values, which was preprocessed within the Js file directly. 
 
@@ -17,10 +14,10 @@ Link to the Dataset used: https://github.com/Ironavenger475/VisualInterface1/blo
 
 Link to the CDC Atlas: https://nccd.cdc.gov/DHDSPAtlas/Default.aspx
 
-##Sketches:
+## Sketches:
 Initially, I had planned an outline where the dashboard was present in a page and the choropleth map in another page. But when that proved to not be permissible, I had the idea to split the page into halves and made a basic sketch of it. The initial stages of the project were based on this sketch and evolved as I proceeded along the stages.
 
-##Visualization Components:
+## Visualization Components:
 
            i.             Bar chart:
 The bar chart was made to show the gradual increase of the selected attribute and to see the general variance between counties
@@ -53,11 +50,11 @@ There are two maps present so that the user can compare two attributes easily.
      vi.              Info Boxes:
 There is info boxes present at the top right of each map to show the relevant info for each chart and how it works.
 
-##Insights:
+## Insights:
 
 The user should be able to find a visible correlation between the attributes easily. By looking at the data, the user can explore the possible correlation between socioeconomic factors and health risks across different counties. They can see how higher poverty rates may be linked to increased obesity, diabetes, and smoking, potentially due to limited access to healthcare and nutritious food. The data also reveals geographic patterns, such as the Southeast having higher stroke and heart disease rates, while the West and Northeast might show lower smoking and obesity rates. Additionally, you can observe how behavioural factors like physical inactivity correlate with increased diabetes and heart disease, and how counties with a larger elderly population tend to have higher rates of chronic conditions. These insights can help the user understand regional health disparities and the need for targeted public health interventions.
 
-##Process:
+## Process:
 
 I used d3, TopoJSON and Math libraries for the application. I structured the code in a simple manner where each part was coded in a separate js file i.e. Charts and map js were in different files. This was done to combat any code brakeage that may occur when changing the code for any specific part. That way, only the intended part of the code would break, and the rest would be safely protected from it and any glitches could easily be isolated and fixed. 
 
@@ -67,7 +64,7 @@ Github Repository: https://github.com/Ironavenger475/VisualInterface1
 
 Hosted Site: https://ironavenger475.github.io/VisualInterface1/
 
-##Challenges:
+## Challenges:
 
 Some of the challenges faced were:
 
@@ -77,7 +74,7 @@ There was a scrapped feature where a heatmap would have been generated to show t
 I had an idea to show the page as zoomed out to accommodate all the charts and two maps within a fully maximised webpage without the need to scroll. But it created issues with the tooltip positioning and had to be greatly altered to make it work as per my vision.
 There were several positioning issues that had occurred that had to be rectified via several changes to the CSS and Js code.
 
-##Future Works:
+## Future Works:
 
 There is a plan to add more attributes to the dataset.
 The scrapped heatmap could be added once the matrix issue is fixed.
