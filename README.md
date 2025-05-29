@@ -1,4 +1,3 @@
-# Visual Interface Project 1
 # Health Trends Visualization: Mapping Risks & Correlations at County Level
 
 ## About:
@@ -63,6 +62,12 @@ The code can be run easily by either downloading from GitHub directly or cloning
 Github Repository: https://github.com/Ironavenger475/VisualInterface1
 
 Hosted Site: https://ironavenger475.github.io/VisualInterface1/
+
+Documentation: https://sites.google.com/view/samrayshpellakur/projects/project-1
+
+## Demo Video:
+
+[![YouTube](http://i.ytimg.com/vi/B-sP8vX25rk/hqdefault.jpg)](https://www.youtube.com/watch?v=B-sP8vX25rk)
 
 ## Challenges:
 
